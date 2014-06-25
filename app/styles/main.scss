@@ -1,6 +1,6 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
-@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 
 .browsehappy {
     margin: 0.2em 0;
@@ -87,5 +87,11 @@ body {
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .container {
+        max-width: 1200px;
     }
 }
